@@ -12,7 +12,7 @@ public class Dbcontext: DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql(  "Host=localhost;Port=5432;Database=GamificationDb;Username=postgres;Password=123456789");
+        optionsBuilder.UseNpgsql(  "Host=localhost;Port=5432;Database=GamificationDb;Username=postgres;Password=1234");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -25,7 +25,9 @@ public class Dbcontext: DbContext
                 Code = "FIRST_STEPS",
                 Title = "Первые шаги",
                 Description = "Игрок зарегистрирован",
-                XpReward = 10
+                XpReward = 10,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -33,7 +35,10 @@ public class Dbcontext: DbContext
                 Code = "LEVEL_2",
                 Title = "Уровень 2",
                 Description = "Достигнут 2-й уровень",
-                XpReward = 25
+                XpReward = 25,
+                RuleSource = "",
+                RuleType = ""
+
             },
             new()
             {
@@ -41,7 +46,9 @@ public class Dbcontext: DbContext
                 Code = "LEVEL_5",
                 Title = "Уровень 5",
                 Description = "Достигнут 5-й уровень",
-                XpReward = 100
+                XpReward = 100,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -49,7 +56,9 @@ public class Dbcontext: DbContext
                 Code = "LEVEL_10",
                 Title = "Мастер",
                 Description = "Достигнут 10-й уровень",
-                XpReward = 300
+                XpReward = 300,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -57,7 +66,9 @@ public class Dbcontext: DbContext
                 Code = "COLLECTOR_500",
                 Title = "Сборщик",
                 Description = "Набрано 500 XP",
-                XpReward = 50
+                XpReward = 50,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -65,7 +76,9 @@ public class Dbcontext: DbContext
                 Code = "COLLECTOR_5000",
                 Title = "Охотник за XP",
                 Description = "Набрано 5000 XP",
-                XpReward = 250
+                XpReward = 250,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -73,7 +86,9 @@ public class Dbcontext: DbContext
                 Code = "MARATHON_7",
                 Title = "Марафонец",
                 Description = "7 действий",
-                XpReward = 40
+                XpReward = 40,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -81,7 +96,9 @@ public class Dbcontext: DbContext
                 Code = "DEDICATED",
                 Title = "Прилежный",
                 Description = "10 действий lesson",
-                XpReward = 60
+                XpReward = 60,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -89,7 +106,9 @@ public class Dbcontext: DbContext
                 Code = "SHOPAHOLIC",
                 Title = "Шопоголик",
                 Description = "5 покупок",
-                XpReward = 50
+                XpReward = 50,
+                RuleSource = "",
+                RuleType = ""
             },
             new()
             {
@@ -97,7 +116,9 @@ public class Dbcontext: DbContext
                 Code = "SECRET",
                 Title = "Секрет",
                 Description = "Секретное достижение",
-                XpReward = 200
+                XpReward = 200,
+                RuleSource = "",
+                RuleType = ""
             }
         };
 

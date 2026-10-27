@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/ooooo/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj": {}
+    "/home/lime/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj": {}
   },
   "projects": {
-    "/home/ooooo/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj": {
+    "/home/lime/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ooooo/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj",
+        "projectUniqueName": "/home/lime/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj",
         "projectName": "Gamification.Core",
-        "projectPath": "/home/ooooo/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj",
-        "packagesPath": "/home/ooooo/.nuget/packages/",
-        "outputPath": "/home/ooooo/RiderProjects/Gamification.API/Gamification.Core/obj/",
+        "projectPath": "/home/lime/RiderProjects/Gamification.API/Gamification.Core/Gamification.Core.csproj",
+        "packagesPath": "/home/lime/.nuget/packages/",
+        "outputPath": "/home/lime/RiderProjects/Gamification.API/Gamification.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ooooo/.nuget/NuGet/NuGet.Config"
+          "/home/lime/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -82,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/ooooo/.dotnet/sdk/8.0.426/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.132/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
